@@ -334,23 +334,16 @@ export default function App() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "14px" }}>
-          <div
+          <img
+            src="/rightshift-logo.png"
+            alt="RightShift"
             style={{
               width: "36px",
               height: "36px",
-              borderRadius: "10px",
-              background: "linear-gradient(135deg, #3b82f6, #8b5cf6)",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              fontSize: "16px",
-              fontWeight: "700",
-              color: "#fff",
+              objectFit: "contain",
               flexShrink: 0,
             }}
-          >
-            H
-          </div>
+          />
           <div>
             <div
               style={{
